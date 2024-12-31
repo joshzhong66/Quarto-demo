@@ -1,0 +1,62 @@
+---
+title: "Josh的主页"
+format: html
+---
+
+# 欢迎来到我的主页
+
+## 关于我
+
+大家好！我叫 **Josh**，是一名 **运维工程师**，在以下领域拥有丰富经验：
+
+- Shell脚本编写和Linux系统管理
+- MySQL数据库管理与优化
+- Docker容器化与编排
+- Ansible自动化和配置管理
+- 网络配置与优化（故障排除、性能调优等）
+
+我热衷于打造高效、可靠且可扩展的系统，以支持复杂的基础设施需求。
+
+---
+
+## 技能
+
+### 操作系统
+- Linux（Ubuntu, CentOS等）
+- Shell脚本用于任务自动化
+
+### 运维工具
+- Docker：镜像创建，容器管理
+- Ansible：Playbook编写，基础设施自动化
+
+### 数据库管理
+- MySQL：安装、配置、备份/恢复、主从复制
+
+### 网络
+- 路由器、交换机、防火墙的配置
+- 故障排除与性能调优
+
+---
+
+## 项目经验
+
+### 使用Ansible实现自动化
+- 自动化部署Web应用，包括Nginx和MySQL配置。
+
+### 使用Docker容器化应用
+- 将传统应用迁移至容器化环境，部署时间减少70%。
+
+### 高可用系统设计
+- 设计并实现MySQL主从复制，提升数据可用性。
+
+---
+
+## 联系方式
+
+欢迎与我联系，合作、咨询或分享想法。
+
+- **邮箱**: josh@example.com
+- **LinkedIn**: [Josh的LinkedIn](https://www.linkedin.com/in/josh)
+- **GitHub**: [Josh的GitHub](https://github.com/josh)
+
+感谢访问我的主页！

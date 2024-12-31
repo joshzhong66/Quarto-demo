@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Josh'Quarto"
+  bread-crumbs: true
+  page-navigation: true               # 页面导航栏
+  sidebar:                            # 侧边栏
+    contents: Python                    # 侧边栏目录
+  navbar:
+    search: true
+    left:
+      - text: "About Me"
+        file: index.qmd               # about首页
+      - text: "Resource Directory"
+        file: resources.qmd           # 资源目录
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+

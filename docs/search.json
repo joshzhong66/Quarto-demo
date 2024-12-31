@@ -1,0 +1,89 @@
+[
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Document List",
+    "section": "",
+    "text": "输入的 MAC 地址列表\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Python/helloworld.html",
+    "href": "Python/helloworld.html",
+    "title": "Josh'Quarto",
+    "section": "",
+    "text": "print(\"hello world!\")\n\nhello world!",
+    "crumbs": [
+      "About Me",
+      "Python",
+      "Helloworld"
+    ]
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Josh的主页",
+    "section": "",
+    "text": "大家好！我叫 Josh，是一名 运维工程师，在以下领域拥有丰富经验：\n\nShell脚本编写和Linux系统管理\nMySQL数据库管理与优化\nDocker容器化与编排\nAnsible自动化和配置管理\n网络配置与优化（故障排除、性能调优等）\n\n我热衷于打造高效、可靠且可扩展的系统，以支持复杂的基础设施需求。\n\n\n\n\n\n\n\nLinux（Ubuntu, CentOS等）\nShell脚本用于任务自动化\n\n\n\n\n\nDocker：镜像创建，容器管理\nAnsible：Playbook编写，基础设施自动化\n\n\n\n\n\nMySQL：安装、配置、备份/恢复、主从复制\n\n\n\n\n\n路由器、交换机、防火墙的配置\n故障排除与性能调优\n\n\n\n\n\n\n\n\n\n自动化部署Web应用，包括Nginx和MySQL配置。\n\n\n\n\n\n将传统应用迁移至容器化环境，部署时间减少70%。\n\n\n\n\n\n设计并实现MySQL主从复制，提升数据可用性。\n\n\n\n\n\n\n欢迎与我联系，合作、咨询或分享想法。\n\n邮箱: josh@example.com\nLinkedIn: Josh的LinkedIn\nGitHub: Josh的GitHub\n\n感谢访问我的主页！"
+  },
+  {
+    "objectID": "index.html#关于我",
+    "href": "index.html#关于我",
+    "title": "Josh的主页",
+    "section": "",
+    "text": "大家好！我叫 Josh，是一名 运维工程师，在以下领域拥有丰富经验：\n\nShell脚本编写和Linux系统管理\nMySQL数据库管理与优化\nDocker容器化与编排\nAnsible自动化和配置管理\n网络配置与优化（故障排除、性能调优等）\n\n我热衷于打造高效、可靠且可扩展的系统，以支持复杂的基础设施需求。"
+  },
+  {
+    "objectID": "index.html#技能",
+    "href": "index.html#技能",
+    "title": "Josh的主页",
+    "section": "",
+    "text": "Linux（Ubuntu, CentOS等）\nShell脚本用于任务自动化\n\n\n\n\n\nDocker：镜像创建，容器管理\nAnsible：Playbook编写，基础设施自动化\n\n\n\n\n\nMySQL：安装、配置、备份/恢复、主从复制\n\n\n\n\n\n路由器、交换机、防火墙的配置\n故障排除与性能调优"
+  },
+  {
+    "objectID": "index.html#项目经验",
+    "href": "index.html#项目经验",
+    "title": "Josh的主页",
+    "section": "",
+    "text": "自动化部署Web应用，包括Nginx和MySQL配置。\n\n\n\n\n\n将传统应用迁移至容器化环境，部署时间减少70%。\n\n\n\n\n\n设计并实现MySQL主从复制，提升数据可用性。"
+  },
+  {
+    "objectID": "index.html#联系方式",
+    "href": "index.html#联系方式",
+    "title": "Josh的主页",
+    "section": "",
+    "text": "欢迎与我联系，合作、咨询或分享想法。\n\n邮箱: josh@example.com\nLinkedIn: Josh的LinkedIn\nGitHub: Josh的GitHub\n\n感谢访问我的主页！"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "Python/mac_addr_conversion.html",
+    "href": "Python/mac_addr_conversion.html",
+    "title": "Josh'Quarto",
+    "section": "",
+    "text": "# 输入的 MAC 地址列表\nmac_addresses = [\n    \"00-14-22-01-23-45\",\n    \"00:14:22:01:23:45\"\n]\n\n\n# MAC 地址转换逻辑\ndef convert_mac_address(mac_address):\n    cleaned_mac = mac_address.replace(\"-\", \"\").replace(\":\", \"\")\n    format1 = cleaned_mac[:2] + \"-\" + cleaned_mac[2:4] + \"-\" + cleaned_mac[4:6] + \"-\" + cleaned_mac[6:8] + \"-\" + cleaned_mac[8:10] + \"-\" + cleaned_mac[10:12]\n    format2 = cleaned_mac[:2] + \":\" + cleaned_mac[2:4] + \":\" + cleaned_mac[4:6] + \":\" + cleaned_mac[6:8] + \":\" + cleaned_mac[8:10] + \":\" + cleaned_mac[10:12]\n    format3 = cleaned_mac[:2] + cleaned_mac[2:4] + \"-\" + cleaned_mac[4:8] + \"-\" + cleaned_mac[8:12]\n    format4 = cleaned_mac.upper()\n    return format1, format2, format3, format4\n\n\n# 运行转换并显示结果\nresults = [convert_mac_address(mac) for mac in mac_addresses]\n\n\n# 输出转换结果\nfor result in results:\n    print(result)\n\n('00-14-22-01-23-45', '00:14:22:01:23:45', '0014-2201-2345', '001422012345')\n('00-14-22-01-23-45', '00:14:22:01:23:45', '0014-2201-2345', '001422012345')",
+    "crumbs": [
+      "About Me",
+      "Python",
+      "输入的 MAC 地址列表"
+    ]
+  }
+]

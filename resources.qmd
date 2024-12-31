@@ -1,0 +1,14 @@
+---
+title: "Document List"
+listing:
+  contents: 
+    - Python #列出 posts 目录中的内容
+
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
