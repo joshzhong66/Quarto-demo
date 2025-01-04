@@ -2,7 +2,7 @@
 
 # Quarto-demo
 
-欢迎来到我的 GitHub 仓库：我的 Quarto 演示。 [我的博客链接](https://joshzhong66.github.io/Quarto-demo/) 
+欢迎来到我的 GitHub 仓库： [我的 Quarto 演示](https://joshzhong66.github.io/Quarto-demo/) 
 
 ## Quarto 介绍
 
